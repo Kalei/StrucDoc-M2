@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOGUE>
+	<!--catalogue FAI second edition (1999) -->
+	<!--Auteur Philippe Pons (PP) -->
+	<!--version 3-2-2000-->
+	<FAMILLE N="f1">
+		<!--famille des lignes et angles-->
+		<LIGNE N="l11">
+			<FIGURE N="f111">
+				<COEF>2</COEF>
+				<GRAPH>av+ ro0 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f112">
+				<COEF>3</COEF>
+				<GRAPH>av- ro0 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f113">
+				<COEF>2</COEF>
+				<GRAPH>av+ ro1 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f114">
+				<COEF>2</COEF>
+				<GRAPH>av- ro1 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+		<LIGNE N="l12">
+			<FIGURE N="f121">
+				<COEF>7</COEF>
+				<GRAPH>av+ ta+45 av+ ro0 av+ ta-45 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f122">
+				<COEF>8</COEF>
+				<GRAPH>av- ta-45 av- ro0 av- ta+45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f123">
+				<COEF>7</COEF>
+				<GRAPH>av+ ta-45 av+ ro0 av+ ta+45 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f124">
+				<COEF>8</COEF>
+				<GRAPH>av- ta+45 av- ro0 av- ta-45 av-</GRAPH>
+			</FIGURE>
+		</LIGNE>
+	</FAMILLE>
+	<FAMILLE N="f2">
+		<!--famille des virages et tonneaux en virage-->
+		<LIGNE N="l21">
+			<FIGURE N="f211">
+				<COEF>6</COEF>
+				<GRAPH>av+ vi+360 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f212">
+				<COEF>8</COEF>
+				<GRAPH>av- vi-360 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f213">
+				<COEF>5</COEF>
+				<GRAPH>av+ vi+270 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f214">
+				<COEF>7</COEF>
+				<GRAPH>av- vi-270 av-</GRAPH>
+			</FIGURE>
+		</LIGNE>
+		<LIGNE N="l22">
+			<FIGURE N="f221">
+				<COEF>4</COEF>
+				<GRAPH>av+ vi+180 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f222">
+				<COEF>5</COEF>
+				<GRAPH>av- vi-180 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f223">
+				<COEF>3</COEF>
+				<GRAPH>av+ vi+90 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f224">
+				<COEF>4</COEF>
+				<GRAPH>av- vi-90 av-</GRAPH>
+			</FIGURE>
+		</LIGNE>
+	</FAMILLE>
+	<FAMILLE N="f3">
+		<!--famille des combinaisons de lignes-->
+		<LIGNE N="l31">
+			<FIGURE N="f311">
+				<COEF>9</COEF>
+				<GRAPH>av+ ta+45 av+ ta+90 av- ta+45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f312">
+				<COEF>11</COEF>
+				<GRAPH>av- ta-45 av- ta-90 av+ ta-45 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f313">
+				<COEF>11</COEF>
+				<GRAPH>av+ ta-45 av+ ta-90 av- ta-45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f314">
+				<COEF>9</COEF>
+				<GRAPH>av- ta+45 av- ta+90 av+ ta+45 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+		<LIGNE N="l32">
+			<FIGURE N="f321">
+				<COEF>10</COEF>
+				<GRAPH>av+ ta+45 av+ ta+45 av+ ta+45 av- ta+45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f322">
+				<COEF>13</COEF>
+				<GRAPH>av- ta-45 av- ta-45 av- ta-45 av+ ta-45 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f323">
+				<COEF>12</COEF>
+				<GRAPH>av+ ta-45 av+ ta-45 av- ta-45 av- ta-45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f324">
+				<COEF>10</COEF>
+				<GRAPH>av- ta+45 av- ta+45 av+ ta+45 av+ ta+45 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+		<LIGNE N="l33">
+			<FIGURE N="f331">
+				<COEF>11</COEF>
+				<GRAPH>av+ ta+45 av+ ta+45 av+ ta-45 av+ ta-45 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f332">
+				<COEF>12</COEF>
+				<GRAPH>av- ta-45 av- ta-45 av- ta+45 av- ta+45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f333">
+				<COEF>11</COEF>
+				<GRAPH>av+ ta-45 av+ ta-45 av- ta+45 av+ ta+45 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f334">
+				<COEF>12</COEF>
+				<GRAPH>av- ta+45 av- ta+45 av+ ta-45 av- ta-45 av-</GRAPH>
+			</FIGURE>
+		</LIGNE>
+		<LIGNE N="l34">
+			<FIGURE N="f341">
+				<COEF>22</COEF>
+				<GRAPH>av+ ta+45 av+ ta+45 av+ ta-45 av+ ta-45 av+ ta-45 av+ ta-45 av- ta-45 av- ta-45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f342">
+				<COEF>23</COEF>
+				<GRAPH>av- ta-45 av- ta-45 av- ta+45 av- ta+45 av- ta+45 av- ta+45 av+ ta+45 av+ ta+45 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f343">
+				<COEF>22</COEF>
+				<GRAPH>av+ ta-45 av+ ta-45 av- ta+45 av+ ta+45 av+ ta+45 av+ ta+45 av+ ta+45 av- ta+45 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f344">
+				<COEF>23</COEF>
+				<GRAPH>av- ta+45 av- ta+45 av+ ta-45 av- ta-45 av- ta-45 av- ta-45 av- ta-45 av+ ta-45 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+	</FAMILLE>
+	<FAMILLE N="f5">
+		<!--famille des renversements-->
+		<LIGNE N="l51">
+			<FIGURE N="f511">
+				<COEF>17</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 re av+ av+ ro2 av+ ta+90 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f512">
+				<COEF>23</COEF>
+				<GRAPH>av- ta-90 av- ro2 re av- av+ ro2 av+ ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f513">
+				<COEF>18</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 re av+ av+ ro2 av+ ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f514">
+				<COEF>22</COEF>
+				<GRAPH>av- ta-90 av- ro2 re av- av+ ro2 av+ ta+90 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+	</FAMILLE>
+	<FAMILLE N="f6">
+		<!--famille des cloches-->
+		<LIGNE N="l61">
+			<FIGURE N="f611">
+				<COEF>15</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 cl+ av+ av+ ro2 av+ ta+90 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f612">
+				<COEF>18</COEF>
+				<GRAPH>av- ta-90 av- ro2 cl+ av- av+ ro2 av+ ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f613">
+				<COEF>16</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 cl+ av+ av+ ro2 av+ ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f614">
+				<COEF>17</COEF>
+				<GRAPH>av- ta-90 av- ro2 cl+ av- av+ ro2 av+ ta+90 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+		<LIGNE N="l62">
+			<FIGURE N="f621">
+				<COEF>15</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 cl- av+ av+ ro2 av+ ta+90 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f622">
+				<COEF>18</COEF>
+				<GRAPH>av- ta-90 av- ro2 cl- av- av+ ro2 av+ ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f623">
+				<COEF>16</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 cl- av+ av+ ro2 av+ ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f624">
+				<COEF>17</COEF>
+				<GRAPH>av- ta-90 av- ro2 cl- av- av+ ro2 av+ ta+90 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+	</FAMILLE>
+	<FAMILLE N="f7">
+		<!--famille des boucles et huits-->
+		<LIGNE N="l71">
+			<FIGURE N="f711">
+				<COEF>6</COEF>
+				<GRAPH>av+ ro0 bo+180 ro0 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f712">
+				<COEF>8</COEF>
+				<GRAPH>av- ro0 bo-180 ro0 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f713">
+				<COEF>8</COEF>
+				<GRAPH>av+ ro0 bo-180 ro0 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f714">
+				<COEF>6</COEF>
+				<GRAPH>av- ro0 bo+180 ro0 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+	</FAMILLE>
+	<FAMILLE N="f8">
+		<!--famille des combinaisons de lignes, angles et boucles-->
+		<LIGNE N="l81">
+			<FIGURE N="f811">
+				<COEF>13</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 av+ bo+180 av+ ro2 av+ ta+90 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f812">
+				<COEF>18</COEF>
+				<GRAPH>av- ta-90 av- ro2 av- bo-180 av- ro2 av- ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f813">
+				<COEF>17</COEF>
+				<GRAPH>av+ ta-90 av- ro2 av- bo-180 av- ro2 av- ta-90 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f814">
+				<COEF>13</COEF>
+				<GRAPH>av- ta+90 av+ ro2 av+ bo+180 av+ ro2 av+ ta+90 av-</GRAPH>
+			</FIGURE>
+		</LIGNE>
+		<LIGNE N="l82">
+			<FIGURE N="f821">
+				<COEF>14</COEF>
+				<GRAPH>av+ ta+90 av+ ro2 av+ bo+180 av+ ro2 av+ ta-90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f822">
+				<COEF>17</COEF>
+				<GRAPH>av- ta-90 av- ro2 av- bo-180 av- ro2 av- ta+90 av+</GRAPH>
+			</FIGURE>
+			<FIGURE N="f823">
+				<COEF>17</COEF>
+				<GRAPH>av+ ta-90 av- ro2 av- bo-180 av- ro2 av- ta+90 av-</GRAPH>
+			</FIGURE>
+			<FIGURE N="f824">
+				<COEF>14</COEF>
+				<GRAPH>av- ta+90 av+ ro2 av+ bo+180 av+ ro2 av+ ta-90 av+</GRAPH>
+			</FIGURE>
+		</LIGNE>
+	</FAMILLE>
+	<FAMILLE N="f9">
+		<!--famille des rotations-->
+		<SOUSFAMILLE N="s91">
+			<!--sous famille des tonneaux-->
+			<LIGNE N="l911">
+				<FIGURE N="f9111">
+					<COEF>6</COEF>
+					<GRAPH>t11</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9112">
+					<COEF>8</COEF>
+					<GRAPH>t12</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9113">
+					<COEF>10</COEF>
+					<GRAPH>t13</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9114">
+					<COEF>12</COEF>
+					<GRAPH>t14</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9115">
+					<COEF>14</COEF>
+					<GRAPH>t15</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9116">
+					<COEF>15</COEF>
+					<GRAPH>t16</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9117">
+					<COEF>17</COEF>
+					<GRAPH>t17</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9118">
+					<COEF>18</COEF>
+					<GRAPH>t18</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l912">
+				<FIGURE N="f9121">
+					<COEF>4</COEF>
+					<GRAPH>t11</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9122">
+					<COEF>6</COEF>
+					<GRAPH>t12</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9123">
+					<COEF>8</COEF>
+					<GRAPH>t13</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9124">
+					<COEF>10</COEF>
+					<GRAPH>t14</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9125">
+					<COEF>11</COEF>
+					<GRAPH>t15</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9126">
+					<COEF>12</COEF>
+					<GRAPH>t16</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9127">
+					<COEF>14</COEF>
+					<GRAPH>t17</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9128">
+					<COEF>15</COEF>
+					<GRAPH>t18</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l913">
+				<FIGURE N="f9131">
+					<COEF>2</COEF>
+					<GRAPH>t11</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9132">
+					<COEF>4</COEF>
+					<GRAPH>t12</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9133">
+					<COEF>6</COEF>
+					<GRAPH>t13</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9134">
+					<COEF>8</COEF>
+					<GRAPH>t14</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9135">
+					<COEF>9</COEF>
+					<GRAPH>t15</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9136">
+					<COEF>10</COEF>
+					<GRAPH>t16</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9137">
+					<COEF>11</COEF>
+					<GRAPH>t17</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9138">
+					<COEF>12</COEF>
+					<GRAPH>t18</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l914">
+				<FIGURE N="f9141">
+					<COEF>2</COEF>
+					<GRAPH>t11</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9142">
+					<COEF>4</COEF>
+					<GRAPH>t12</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9143">
+					<COEF>6</COEF>
+					<GRAPH>t13</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9144">
+					<COEF>8</COEF>
+					<GRAPH>t14</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9145">
+					<COEF>9</COEF>
+					<GRAPH>t15</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9146">
+					<COEF>10</COEF>
+					<GRAPH>t16</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9147">
+					<COEF>11</COEF>
+					<GRAPH>t17</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9148">
+					<COEF>12</COEF>
+					<GRAPH>t18</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l915">
+				<FIGURE N="f9151">
+					<COEF>2</COEF>
+					<GRAPH>t11</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9152">
+					<COEF>4</COEF>
+					<GRAPH>t12</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9153">
+					<COEF>6</COEF>
+					<GRAPH>t13</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9154">
+					<COEF>8</COEF>
+					<GRAPH>t14</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9155">
+					<COEF>9</COEF>
+					<GRAPH>t15</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9156">
+					<COEF>10</COEF>
+					<GRAPH>t16</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9157">
+					<COEF>11</COEF>
+					<GRAPH>t17</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9158">
+					<COEF>12</COEF>
+					<GRAPH>t18</GRAPH>
+				</FIGURE>
+			</LIGNE>
+		</SOUSFAMILLE>
+		<SOUSFAMILLE N="s92">
+			<!--sous famille des tonneaux à deux facettes-->
+			<LIGNE N="l921">
+				<FIGURE N="f9214">
+					<COEF>13</COEF>
+					<GRAPH>t24</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9216">
+					<COEF>17</COEF>
+					<GRAPH>t26</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9218">
+					<COEF>21</COEF>
+					<GRAPH>t28</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l922">
+				<FIGURE N="f9224">
+					<COEF>11</COEF>
+					<GRAPH>t24</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9226">
+					<COEF>14</COEF>
+					<GRAPH>t26</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9228">
+					<COEF>18</COEF>
+					<GRAPH>t28</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l923">
+				<FIGURE N="f9234">
+					<COEF>9</COEF>
+					<GRAPH>t24</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9236">
+					<COEF>12</COEF>
+					<GRAPH>t26</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9238">
+					<COEF>15</COEF>
+					<GRAPH>t28</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l911">
+				<FIGURE N="f9215">
+					<COEF>11</COEF>
+					<GRAPH>t27</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9216">
+					<COEF>3</COEF>
+					<GRAPH>t26</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9218">
+					<COEF>21</COEF>
+					<GRAPH>ta+90</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l924">
+				<FIGURE N="f9244">
+					<COEF>9</COEF>
+					<GRAPH>t24</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9246">
+					<COEF>12</COEF>
+					<GRAPH>t26</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9248">
+					<COEF>15</COEF>
+					<GRAPH>t28</GRAPH>
+				</FIGURE>
+			</LIGNE>
+			<LIGNE N="l925">
+				<FIGURE N="f9254">
+					<COEF>9</COEF>
+					<GRAPH>t24</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9256">
+					<COEF>12</COEF>
+					<GRAPH>t26</GRAPH>
+				</FIGURE>
+				<FIGURE N="f9258">
+					<COEF>15</COEF>
+					<GRAPH>t28</GRAPH>
+				</FIGURE>
+			</LIGNE>
+		</SOUSFAMILLE>
+	</FAMILLE>
+</CATALOGUE>

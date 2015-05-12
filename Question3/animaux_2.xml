@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<pets>
+  <pet id="1">
+   <name>Bernard</name>
+   <age>14</age>
+   <type>chat</type>
+   <color>argent</color>
+  </pet>
+  <pet id="2">
+   <name>Amanda</name>
+   <age>3</age>
+   <type>chien</type>
+   <color>marron</color>
+  </pet>
+  <pet id="3">
+   <name>Jack</name>
+   <age>3</age>
+   <type>chat</type>
+   <color>noir</color>
+  </pet>
+  <pet id="5">
+   <name>Bernard</name>
+   <age>12</age>
+   <type>chien</type>
+   <color>bleu</color>
+  </pet>
+  <pet id="4">
+   <name>Naia</name>
+   <age>1</age>
+   <type>chat</type>
+   <color>marron</color>
+  </pet>
+  <pet id="9">
+   <name>Puzzy</name>
+   <age>5</age>
+   <type>hamster</type>
+   <color>marron</color>
+  </pet>
+ <pet id="6">
+   <name>Stop</name>
+   <age>3</age>
+   <type>cochon</type>
+   <color>marron</color>
+  </pet>
+ <pet id="7">
+   <name>Maurice</name>
+   <age>5</age>
+   <type>chat</type>
+   <color>vert</color>
+  </pet>
+</pets>

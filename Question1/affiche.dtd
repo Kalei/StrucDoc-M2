@@ -1,0 +1,21 @@
+<!ELEMENT affiche (titre, dates, partenaires,coordonnees) >
+	<!ELEMENT titre (#PCDATA) >
+	
+	<!ELEMENT dates (date_debut, date_fin) >
+		<!ATTLIST dates langue CDATA #REQUIRED>
+	
+		<!ELEMENT date_debut (texte)>
+			<!ELEMENT texte (#PCDATA)>
+			
+		<!ELEMENT date_fin (texte)>
+	
+	<!ELEMENT partenaires (name,partenaire+)>
+		<!ELEMENT partenaire (#PCDATA)>
+		<!ATTLIST partenaire logo CDATA #REQUIRED
+			 action CDATA #REQUIRED>
+		
+	<!ELEMENT coordonnees (adresse)>
+		<!ATTLIST coordonnees email CDATA #REQUIRED>
+		<!ELEMENT adresse (#PCDATA)>
+
+	

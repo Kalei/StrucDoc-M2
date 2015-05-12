@@ -1,0 +1,5 @@
+1- //pet/type
+2- //pet[name='Stop' and type='cochon']/age
+3- //pet[age<10]/name
+4- //pet[name='Stop']/preceding-sibling::*[1]/type
+5- //pet[age < sum(//pet/age) div count(//pet)]/@id
